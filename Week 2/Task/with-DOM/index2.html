@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label, input{
+            display: block;
+            margin-top: 10px;
+        }
+
+        .consonan {
+            margin-top: 4vh;
+        }
+
+        .grade {
+            margin-top: 10vh;
+        }
+
+        button {
+            margin-top: 2vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="palindrome">
+        <label for="palindrome">palindrome</label>
+        <input type="text" id="palindrome-check" value="">
+        <button class="btn" onclick="palindrome()">check</button>
+        <p>hasil :</p>
+        <p id="result"></p>
+    </div>
+
+
+    <div class="consonan">
+        <label for="consonan">consonan</label>
+        <input type="text" name="consonan" id="consonan" value="">
+        <button class="btn" onclick="consonan()">convert</button>
+        <p>hasil :</p>
+        <p id="converted"></p>
+    </div>
+
+    <div class="grade">
+        Nilai
+        <label for="">Bahasa indonesia</label>
+        <input type="number" name="" id="ind" value="">
+        <label for="">Bahasa inggris</label>
+        <input type="number" name="" id="ing">
+        <label for="">MTK</label>
+        <input type="number" name="" id="mtk">
+        <label for="">IPA</label>
+        <input type="number" name="" id="ipa">
+        <button class="btn" onclick="grade()">hasil</button>
+
+        <p>nilai :</p>
+        <p id="average"></p>
+    </div>
+
+    
+    <script src="palindrome.js"></script>
+    <script src="consonan.js"></script>
+    <script src="grade.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    position: relative;
+}
+.sign-up-bg {
+    background: url(../asset/sign-bg.webp) no-repeat;
+    background-size: cover;
+    flex: 0.5;
+    height: 120vh;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.sign-up-form nav.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.navbar .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.auth-field {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+}
+#sign-up-btn {
+    box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+}
+.google-logo {
+    width: 30px;
+    height: 30px;
+}
+#by-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+}
+
+
+#join-member-banner {
+    width: 80%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    bottom: -5vh;
+    box-shadow: 0px 6px 20px rgba(117, 113, 113, 0.67);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#join-member-btn {
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    width: 0;
+}
+
+.brand-about {
+    width: 30%;
+}
+
+section.brand-footer-aside ul li {
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+section.brand-footer-aside ul li a {
+    color: #4F5665;
+}
+
+section.brand-footer-aside ul li.title-aside a{
+    color: #0B132A;
+}
+
+.social-media-icon {
+    background-color: #6A4029;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    padding-bottom: 4em;
+    color: #AFB5C0;
+}
+
