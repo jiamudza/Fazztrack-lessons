@@ -15,7 +15,7 @@ fetch(url)
         <ul>
             <li id="address" >address ></li>
         </ul>
-        <div class="d-none" id="address-inner">
+        <div class="" id="address-inner">
             <ul>
                 <li>street: ${data.address.street}</li>
                 <li>suite: ${data.address.suite}</li>
@@ -27,7 +27,7 @@ fetch(url)
     <li class="geo d-none" >
         <ul>
             <li id="geo">geo ></li>
-            <div class="d-none" id="geo-inner">
+            <div class="" id="geo-inner">
                 <ul>
                     <li>lat: ${data.address.geo.lat}</li>
                     <li>lng: ${data.address.geo.lng}</li>
@@ -41,7 +41,7 @@ fetch(url)
         <ul>
             <li id="company">Company ></li>
         </ul>
-        <div class="d-none" id="company-inner">
+        <div class="" id="company-inner">
             <ul>
                 <li>name: ${data.company.name}</li>
                 <li>catchPrase: ${data.company.catchPrase}</li>
