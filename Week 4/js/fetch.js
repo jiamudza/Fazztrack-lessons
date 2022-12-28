@@ -24,7 +24,7 @@ fetch(url)
             </ul>
         </div>
     </li>
-    <li class="geo d-none" >
+    <li class="geo" >
         <ul>
             <li id="geo">geo ></li>
             <div class="" id="geo-inner">
@@ -55,26 +55,3 @@ fetch(url)
         })
         card.innerHTML = output;
     })
-
-card.addEventListener('click', event => {
-    event.preventDefault();
-
-    let addressDrop = event.target.id == "address";
-    let geoDrop = event.target.id == "geo"
-    let companyDrop = event.target.id == "company"
-
-    let id = event.target.parentElement.dataset.id;
-
-    const address = document.querySelector('#address');
-    const geo = document.querySelector('#geo');
-    const company = document.querySelector('#company');
-    const addressInner = document.querySelector('#address-inner');
-    const geoInner = document.querySelector('#geo-inner');
-    const companyInner = document.querySelector('#company-inner')
-
-    console.log(id)
-    // if(address) {
-    //     if(addressInner)
-    // }
-})
-
